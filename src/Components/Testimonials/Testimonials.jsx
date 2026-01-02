@@ -30,13 +30,13 @@ const Testimonials = () => {
         </article>
         <article className='test-article'>
             <div><img src={star}/><img src={star}/><img src={star}/><img src={star}/><img src={star}/></div>
-            <div><p>"I am so grateful for the service I received from the Lakwell Team. They were efficient, friendly, experienced, and gave great advice for best optimisation in my factory".</p></div>
+            <div><p>"I am so grateful for the service I received from the Lakwell Team. They were efficient, friendly, experienced, and gave great advice for best optimisation in my factory."</p></div>
             <div><h3>Asanka Rajapakse</h3></div>
             <div><h4>Ship Captain, Oil Dredgers</h4></div>
         </article>
         <article className='test-article'>
             <div><img src={star}/><img src={star}/><img src={star}/><img src={star}/><img src={star}/></div>
-            <div><p>"Solar system were repaired and serviced professionally at my factory. Lakwell is a very responsive company with good communication and I faced no issues whatsoever.</p></div>
+            <div><p>"Solar system were repaired and serviced professionally at my factory. Lakwell is a very responsive company with good communication and I faced no issues whatsoever."</p></div>
             <div><h3>Aruna De Silva</h3></div>
             <div><h4>Chairman, Evergreen Group</h4></div>
         </article>
