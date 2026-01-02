@@ -1,0 +1,119 @@
+.Whysolar{
+    height: auto;
+    margin-top: 0px;
+    padding: 25px 20px 20px 25px;
+    background:linear-gradient(rgba(14, 59, 46, 0.6),rgba(14, 59, 46, 0.6)), url('../../assets/whysolar.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.solar-head h2,.solar-head p{
+text-align: center;
+}
+
+.solar-head h2{
+color: #FFFFFF;
+font-size: 48px;
+font-weight: bold;
+}
+
+.solar-head p{
+color: #E8E8E8;
+font-size: 18px;
+margin: 0 25px 0 25px;
+}
+
+.solar-main{
+    margin: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.article-heading{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.solar-article{
+    flex: 0 1 45%; 
+    box-sizing: border-box;  
+    padding: 10px 20px 10px 20px;
+    background: #0E3B2E;
+    border-radius: 12px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.solar-article:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 59, 46, 0.4);
+}
+
+.solar-article img{
+    width: 37px;
+    height: auto;
+}
+
+.solar-article h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+
+.solar-article p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #E8E8E8;
+}
+
+
+/* Mobile responsiveness for Why Solar section */
+@media (max-width: 768px) {
+
+    .solar-main {
+        margin: 30px 15px;        /* smaller margin on mobile */
+        gap: 20px;                /* smaller gap between articles */
+    }
+
+    .solar-article {
+        flex: 0 1 100%;           /* full width on mobile */
+        padding: 15px 20px;       /* adjust padding */
+    }
+
+    .solar-article h3 {
+        font-size: 18px;          /* slightly smaller heading */
+    }
+
+    .solar-article p {
+        font-size: 15px;          /* slightly smaller paragraph */
+    }
+
+    .solar-head h2 {
+        font-size: 36px;          /* smaller main heading */
+        margin: 0 15px;
+        margin-bottom: 15px;
+    }
+
+    .solar-head p {
+        font-size: 16px;          /* smaller subtitle */
+        margin: 0 15px 10px 15px;
+    }
+
+    .article-heading {
+        gap: 12px;                /* smaller gap between icon and heading */
+    }
+
+    .solar-article img {
+        width: 32px;              /* smaller icon for mobile */
+    }
+}

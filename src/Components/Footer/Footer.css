@@ -1,0 +1,116 @@
+.footer{
+    background: #0E3B2E;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.devop-details{
+    text-align: center;
+}
+
+.devop-details p{
+margin: 5px 0;
+}
+
+.footer-details{
+    display: flex;
+    align-items: stretch;          /* forces equal height */
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.footer-card{
+    flex: 1;                       /* equal width */
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   /* consistent top alignment */
+    padding: 20px;
+    margin-left: 125px;
+    text-align: center;
+}
+
+
+
+.footer-card img{
+    width: 126px;
+    height: auto;
+    border-radius: 12px;
+    border: solid 2px #C9A44C;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.footer-card h3, .footer-card ul li a,.footer-card p{
+    color: #FFFFFF;
+}
+
+.footer-card ul li {
+    margin-bottom: 15px;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-card ul li a{
+    text-decoration: none;
+}
+
+.devop-details a {
+    color: inherit;        /* inherits text color from <p> */
+    text-decoration: none; /* removes underline */
+}
+
+
+@media (max-width: 768px) {
+
+    .footer-details {
+        flex-direction: column;   /* stack cards vertically */
+        align-items: center;
+        gap: 30px;
+        padding: 20px 15px;
+    }
+
+    .footer-card {
+        width: 100%;              /* full width on mobile */
+        margin-left: 0;           /* remove desktop offset */
+        padding: 15px;
+        text-align: center;
+    }
+
+    .footer-card img {
+        width: 110px;             /* slightly smaller logo */
+        margin-bottom: 10px;
+    }
+
+    .footer-card h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .footer-card p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .footer-card ul li {
+        margin-bottom: 12px;
+    }
+
+    .footer-card ul li a {
+        font-size: 15px;
+    }
+
+    .devop-details {
+        padding: 15px 10px;
+    }
+
+    .devop-details p {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+}

@@ -1,0 +1,137 @@
+.leader{
+background-color: #0E3B2E;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 20px 25px 50px 25px;
+}
+
+.leader h2,.leader p{
+text-align: center;
+}
+
+.leader h2{
+color: #FFFFFF;
+font-size: 48px;
+font-weight: bold;
+}
+
+.leader p{
+color: #E8E8E8;
+font-size: 18px;
+margin: 0 25px 25px 25px;
+}
+
+.leader-cards{
+margin-top: 20px;
+display: flex;
+gap: 30px;
+justify-content: center;
+align-items: stretch;
+}
+
+.leader-article{
+flex: 1;                 /* same width */
+    background: #C9A44C;
+    border-radius: 12px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* center content vertically */
+    align-items: center;
+    text-align: center;
+
+    cursor: pointer;
+    transition: transform 0.3s ease ,box-shadow 0.3s ease;
+}
+
+.leader-article:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 59, 46, 0.4);
+}
+
+.leader-article h2{
+color: #0E3B2E;
+font-size: 20px;
+font-weight: 800;
+margin: 10px 25px 0 25px;
+}
+
+.leader-article h3{
+color: #0E3B2E;
+font-size: 18px;
+margin: 10px 25px 10px 25px;
+}
+
+.leader-article p{
+color: #0E3B2E;
+font-size: 16px;
+margin: 0 25px 0 25px;
+}
+
+.leader-row{
+display: flex;
+gap: 10px;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+.leader-row img{
+width:40px;
+height: 40px;
+}
+
+
+@media (max-width: 768px) {
+
+    .leader-cards {
+        flex-direction: column;     /* stack articles vertically */
+        gap: 20px;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .leader-article {
+        width: 90%;                 /* same pattern as About */
+        padding: 20px;
+    }
+
+    .leader h2 {
+        font-size: 36px;            /* reduced main heading */
+        margin: 0 15px;
+    }
+
+    .leader p {
+        font-size: 16px;
+        margin: 15px 15px 20px 15px;
+    }
+
+    .leader-article h2 {
+        font-size: 18px;
+        margin: 10px 15px;
+    }
+
+    .leader-article h3 {
+        font-size: 16px;
+        margin: 8px 15px;
+    }
+
+    .leader-article p {
+        font-size: 15px;
+        margin: 0 15px;
+    }
+
+    .leader-row {
+        justify-content: flex-start; /* better readability on mobile */
+        align-items: center;
+        gap: 12px;
+        text-align: left;
+    }
+
+    .leader-row img {
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+    }
+}
