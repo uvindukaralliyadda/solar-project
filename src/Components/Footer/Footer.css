@@ -12,6 +12,7 @@
 
 .devop-details p{
 margin: 5px 0;
+color: #FFFFFF;
 }
 
 .footer-details{
@@ -63,6 +64,7 @@ margin: 5px 0;
 .devop-details a {
     color: inherit;        /* inherits text color from <p> */
     text-decoration: none; /* removes underline */
+    color: #FFFFFF;
 }
 
 

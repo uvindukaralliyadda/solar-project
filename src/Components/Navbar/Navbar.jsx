@@ -27,8 +27,9 @@ const Navbar = () => {
       <ul className={menuOpen ? 'nav-menu open' : 'nav-menu'}>
         <li><a href='#about' onClick={handleLinkClick}>About</a></li>
         <li><a href='#Whysolar' onClick={handleLinkClick}>Why Solar</a></li>
-        <li><a onClick={handleLinkClick}>Partners</a></li>
+        <li><a href='#partner' onClick={handleLinkClick}>Partners</a></li>
         <li><a href='#leader' onClick={handleLinkClick}>Leadership</a></li>
+        <li><a href='#testimonials' onClick={handleLinkClick}>Testimonials</a></li>
         <li><a href='#Process' onClick={handleLinkClick}>Process</a></li>
         <li className='btn1'><a href='#contact' onClick={handleLinkClick}>Contact</a></li>
       </ul>

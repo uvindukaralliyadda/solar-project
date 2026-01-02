@@ -7,6 +7,8 @@ import Process from './Components/Process/Process'
 import Contact from './Components/Contact/Contact'
 import Leadership from './Components/Leadership/Leadership'
 import Footer from './Components/Footer/Footer'
+import Partners from './Components/Partners/Partners'
+import Testimonials from './Components/Testimonials/Testimonials'
 
 const App = () => {
   return (
@@ -15,7 +17,9 @@ const App = () => {
       <Hero/>
       <About/>
       <Whysolar/>
+      <Partners/>
       <Leadership/>
+      <Testimonials/>
       <Process/>
       <Contact/>
       <Footer/>

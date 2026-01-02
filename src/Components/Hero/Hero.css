@@ -1,55 +1,88 @@
-.hero{
+.hero {
     top: 0;
     height: 100vh;
-    background: linear-gradient(rgba(14, 59, 46, 0.35),rgba(14, 59, 46, 0.35)), url('../../assets/Hero.webp');
+    background: linear-gradient(rgba(14, 59, 46, 0.35), rgba(14, 59, 46, 0.35)), url('../../assets/Hero.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    /* othere components */
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 50px; /* default side padding */
 }
 
-.hero-text{
+.hero-text {
     text-align: center;
 }
 
-h2,p{
+.hero-text h2,
+.hero-text p {
     margin-bottom: 25px;
 }
 
-h2{
+.hero-text h2 {
     font-size: 48px;
     font-weight: bold;
     color: #ffffff;
 }
 
-p{
+.hero-text p {
     font-size: 18px;
     color: #E8E8E8;
 }
 
-button{
+.hero-text a {
     font-size: 20px;
-    font-weight:200;
-    margin-right: 25px;
-    cursor: pointer;
+    text-decoration: none;
 }
- 
 
-/* Mobile responsiveness */
+button.btn1,
+button.btn2,
+a.btn2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 25px;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button.btn1,
+a.btn1 {
+    background-color: #0E3B2E;
+    color: #C9A44C;
+    border: none;
+}
+
+button.btn2,
+a.btn2 {
+    background-color: #C9A44C;
+    color: #0E3B2E;
+    border: 2px solid #C9A44C;
+}
+
+button.btn1:hover,
+button.btn2:hover,
+a.btn2:hover {
+    opacity: 0.85;
+}
+
+/* Tablet */
 @media (max-width: 1024px) {
-    h2 {
+    .hero-text h2 {
         font-size: 36px;
     }
 
-    p {
+    .hero-text p {
         font-size: 16px;
     }
 
-    button.btn1 {
+    button.btn1,
+button.btn2,
+a.btn2 {
         font-size: 18px;
         padding: 10px 28px;
     }
@@ -59,47 +92,51 @@ button{
     }
 }
 
+/* Small tablets / large phones */
 @media (max-width: 768px) {
-    h2 {
+    .hero-text h2 {
         font-size: 28px;
     }
 
-    p {
+    .hero-text p {
         font-size: 14px;
     }
 
-    button.btn1 {
+    button.btn1,
+    button.btn2,
+    a.btn2 {
         font-size: 16px;
         padding: 8px 24px;
-    }
-
-     button.btn2 {
-        font-size: 16px;
-        padding: 8px 24px;
+        margin-bottom: 15px; /* add space when stacked */
     }
 
     .hero {
-        height: 90vh; /* slightly smaller to fit smaller screens */
+        height: 90vh;
         padding: 0 20px;
+        flex-direction: column;
     }
 }
 
+/* Mobile */
 @media (max-width: 480px) {
-    h2 {
+    .hero-text h2 {
         font-size: 22px;
     }
 
-    p {
+    .hero-text p {
         font-size: 13px;
     }
 
-    button.btn1 {
+    button.btn1,
+    button.btn2,
+    a.btn2 {
         font-size: 14px;
         padding: 6px 20px;
+        margin-bottom: 10px;
     }
 
-    button.btn2 {
-        font-size: 14px;
-        padding: 6px 20px;
+    .hero {
+        height: 85vh;
+        padding: 0 15px;
     }
 }

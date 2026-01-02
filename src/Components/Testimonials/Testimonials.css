@@ -1,0 +1,95 @@
+.testimonials{
+background-color: #F6F5F1;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 20px 25px 50px 25px;
+}
+
+
+
+.testimonials h2,.testimonials p{
+text-align: center;
+}
+
+.testimonials h2{
+color: #0E3B2E;
+font-size: 48px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.testimonials p{
+color: #2B2B2B;
+font-size: 18px;
+margin: 0 25px 40px 25px;
+}
+
+.testi-cards {
+    display: flex;
+    flex-wrap: wrap;        /* allows cards to wrap to next line */
+    gap: 30px;              /* space between cards */
+    justify-content: center; /* center cards if row isn't full */
+    margin-top: 40px;
+}
+
+.test-article {
+    flex: 0 1 calc(33.333% - 30px); /* 3 cards per row minus gap */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* makes all cards equal height */
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.3s ease ,box-shadow 0.3s ease;
+}
+
+.test-article:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 59, 46, 0.4);
+}
+
+
+/* Stars row */
+.test-article > div:first-child img {
+    width: 24px;
+    height: auto;
+    margin-right: 4px;
+}
+
+/* Paragraph styling */
+.test-article p {
+    font-size: 16px;
+    color: #2B2B2B;
+    margin: 15px 0;
+}
+
+/* Name & designation */
+.test-article h3 {
+    font-size: 18px;
+    color: #0E3B2E;
+    margin-bottom: 5px;
+}
+
+.test-article h4 {
+    font-size: 16px;
+    color: #0E3B2E;
+    font-weight: 400;
+}
+
+/* Tablet: 2 cards per row */
+@media (max-width: 1024px) {
+    .test-article {
+        flex: 0 1 calc(50% - 20px);
+    }
+}
+
+/* Mobile: 1 card per row */
+@media (max-width: 480px) {
+    .test-article {
+        flex: 0 1 100%;
+    }
+}
