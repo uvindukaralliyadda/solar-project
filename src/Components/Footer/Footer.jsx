@@ -31,7 +31,7 @@ const Footer = () => {
             </ul>
         </article>
       </div>
-
+      <hr/>
       <div className='devop-details'>
         <p>&copy; All Rights Reserved. Lakwell Solar (Pvt) Ltd</p>
         <p>Designed & Developed by <a href="https://www.karalliyaddaone.com/" target="_blank" rel="noopener noreferrer"><b>K1</b></a></p>
