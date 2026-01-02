@@ -85,6 +85,15 @@ margin: 0 25px 40px 25px;
     .test-article {
         flex: 0 1 calc(50% - 20px);
     }
+    .testimonials h2 {
+        font-size: 36px;            /* reduced main heading */
+        margin: 0 15px;
+    }
+
+    .testimonials p {
+        font-size: 16px;
+        margin: 15px 15px 20px 15px;
+    }
 }
 
 /* Mobile: 1 card per row */

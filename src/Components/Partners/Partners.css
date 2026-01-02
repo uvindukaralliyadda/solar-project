@@ -50,6 +50,15 @@ margin: 0 25px 20px 25px;
     .card {
         flex: 0 1 calc(50% - 20px);
     }
+    .partner h2 {
+        font-size: 36px;            /* reduced main heading */
+        margin: 0 15px;
+    }
+
+    .partner p {
+        font-size: 16px;
+        margin: 15px 15px 20px 15px;
+    }
 }
 
 /* Mobile: 1 per row */
