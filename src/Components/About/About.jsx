@@ -9,24 +9,24 @@ const About = () => {
     <div className='about' id='about'>
         <header>
       <h2>About the Company</h2>
-      <p>We are a professionally managed renewable energy company established with the objective of supporting Sri Lanka’s transition towards clean and reliable solar power. Our approach emphasizes structured planning, regulatory compliance, and long-term sustainability.</p>
+      <p>We are a Sri Lanka-based solar company helping homeowners, businesses, and industries switch to clean, reliable solar power. Our solutions are tailored for domestic and commercial clients to ensure efficiency, cost savings, and long-term sustainability.</p>
       </header>
 
       <main className='about-cards'>
         <article className='about-articles'>
             <img src={purpose}/>
             <h3>Our Purpose</h3>
-            <p>To contribute to national energy security through responsible solar energy development.</p>
+            <p>To provide households and businesses with high-quality solar solutions that reduce energy bills, increase energy independence, and promote sustainable living.</p>
         </article>
         <article className='about-articles'>
             <img src={approach}/>
             <h3>Our Approach</h3>
-            <p>We prioritize feasibility analysis, compliance, and strategic partnerships to ensure long-term viability.</p>
+            <p>We assess each client’s energy requirements, site conditions, and budget to design a customized solar installation plan, whether it's for a rooftop system, industrial setup, or hybrid energy solution.</p>
         </article>
         <article className='about-articles'>
             <img src={values}/>
             <h3>Our Values</h3>
-            <p>Integrity, accountability, and commitment to sustainable infrastructure development.</p>
+            <p>We prioritize reliability, transparency, and long-term performance, ensuring our clients receive energy systems that are safe, efficient, and built to last.</p>
         </article>
       </main>
     </div>

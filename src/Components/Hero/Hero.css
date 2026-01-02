@@ -34,6 +34,8 @@ p{
 button{
     font-size: 20px;
     font-weight:200;
+    margin-right: 25px;
+    cursor: pointer;
 }
  
 
@@ -71,6 +73,11 @@ button{
         padding: 8px 24px;
     }
 
+     button.btn2 {
+        font-size: 16px;
+        padding: 8px 24px;
+    }
+
     .hero {
         height: 90vh; /* slightly smaller to fit smaller screens */
         padding: 0 20px;
@@ -87,6 +94,11 @@ button{
     }
 
     button.btn1 {
+        font-size: 14px;
+        padding: 6px 20px;
+    }
+
+    button.btn2 {
         font-size: 14px;
         padding: 6px 20px;
     }

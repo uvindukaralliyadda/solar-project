@@ -19,35 +19,35 @@ const Process = () => {
             <img src={one} alt="Assessment Icon"/>
             <h3>Initial Discussion</h3>
           </div>
-          <p>Understanding objectives, land availability, and requirements.</p>
+          <p>Understanding energy needs, site conditions, scope.</p>
         </article>
         <article className='process-article'>
           <div className='article-heading'>
             <img src={two} alt="Planning Icon"/>
             <h3>Feasibility Review</h3>
           </div>
-          <p>Preliminary technical and regulatory evaluation.</p>
+          <p>Preliminary technical and regulatory checks.</p>
         </article>
         <article className='process-article'>
           <div className='article-heading'>
             <img src={three} alt="Installation Icon"/>
             <h3>Planning and Structuring</h3>
           </div>
-          <p>Defining the development approach and partner coordination.</p>
+          <p>Defining system design approach and installation coordination.</p>
         </article>
         <article className='process-article'>
           <div className='article-heading'>
             <img src={four} alt="Monitoring Icon"/>
             <h3>Implementation Readiness</h3>
           </div>
-          <p>Preparation for execution through qualified partners.</p>
+          <p>Preparation for installation through qualified partners.</p>
         </article>
         <article className='process-article'>
           <div className='article-heading'>
             <img src={five} alt="Monitoring Icon"/>
             <h3>Long-Term Oversight</h3>
           </div>
-          <p>Focus on operational readiness and sustainability.</p>
+          <p>Focus on system performance, reliability, sustainability.</p>
         </article>
       </main>
     </div>

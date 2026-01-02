@@ -6,7 +6,8 @@ const Hero = () => {
     <div className='hero'>
       <div className='hero-text'>
       <h2>Building a Sustainable Solar Future for Sri Lanka</h2>
-      <p>We are a Sri Lanka based solar energy company focused on responsible planning, coordination,<br/> and long-term development of solar power initiatives aligned with national energy goals.</p>
+      <p>Lakwell Energy (Pvt) Ltd is a Sri Lanka based solar company focused on structured planning,<br/> efficient installation, and long-term solar solutions for residential, commercial, and industrial energy needs.</p>
+      <button className='btn2'>Company Profile</button>
       <button className='btn1'>Contact</button>
       </div>
     </div>

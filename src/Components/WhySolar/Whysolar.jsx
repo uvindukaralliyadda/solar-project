@@ -10,7 +10,7 @@ const Whysolar = () => {
     <div className='Whysolar' id='Whysolar'>
       <header className='solar-head'>
         <h2>Why Solar Energy</h2>
-        <p>Solar energy is one of the most practical and sustainable solutions to meet Sri Lanka’s growing energy demand.</p>
+        <p>Solar energy is a smart, cost-effective solution for homes and businesses. It lowers electricity bills, increases energy independence, and supports a cleaner environment for Sri Lanka's future.</p>
       </header>
       <main className='solar-main'>
             <article className='solar-article'>
@@ -18,28 +18,28 @@ const Whysolar = () => {
                 <img src={energyindep}/>
                 <h3>Energy Independence</h3>
                 </div>
-                <p>Reduces reliance on imported fuel and strengthens national energy security.</p>
+                <p>Generates your own electricity, reducing reliance on utility providers and protecting you from rising energy costs.</p>
             </article>
             <article className='solar-article'>
                 <div className='article-heading'>
                 <img src={cost}/>
                 <h3>Cost Stability</h3>
                 </div>
-                <p>Provides predictable long-term energy costs compared to conventional energy sources.</p>
+                <p>Locks in predictable energy costs and lowers monthly bills, making budgeting easier for households and businesses alike.</p>
             </article>
             <article className='solar-article'>
                 <div className='article-heading'>
                 <img src={Environmental}/>
                 <h3>Environmental Responsibility</h3>
                 </div>
-                <p>Minimizes carbon emissions and supports environmental preservation.</p>
+                <p>Promotes sustainable practices, helping both families and companies contribute to a greener future.</p>
             </article>
             <article className='solar-article'>
                 <div className='article-heading'>
                 <img src={Future}/>
                 <h3>Future Readiness</h3>
                 </div>
-                <p>Aligns with global and national clean energy commitments</p>
+                <p>Investing in solar today prepares your home or business for a future where clean energy is the standard.</p>
             </article>
       </main>
     </div>

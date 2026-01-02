@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='footer-details'>
         <article className='footer-card'>
             <img src={logo}/>
-            <p>We are a professionally managed renewable energy company established with the objective of supporting Sri Lanka’s transition towards clean and reliable solar power. Our approach emphasizes structured planning, regulatory compliance, and long-term sustainability.</p>
+            <p>We are a professionally managed solar company supporting Sri Lanka’s shift to clean, reliable energy. Our focus is on careful planning, compliance, and delivering sustainable solutions for the long term.</p>
         </article>
         <article className='footer-card'>
             <h3>Quick Links</h3>

@@ -16,6 +16,8 @@ const Contact = () => {
         <article className='contact-article'>
           <img src={emailIcon} alt="Email Icon"/>
           <h3>Email</h3>
+          <p>Jayantha@lakwellenergy.com</p>
+          <p>Lakwell.energy@gmail.com</p>
           <p>Lakwell.solar@gmail.com</p>
         </article>
         <article className='contact-article'>

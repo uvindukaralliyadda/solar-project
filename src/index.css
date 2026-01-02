@@ -26,3 +26,10 @@ body {
     background-color: #C9A44C;
     border-radius: 25px;
 }
+
+.btn2 {
+    padding: 10px 20px;
+    background-color: #0E3B2E;
+    border-radius: 25px;
+    color: #C9A44C;
+}
