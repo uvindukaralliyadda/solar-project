@@ -82,7 +82,7 @@ a.btn2:hover {
 
     button.btn1,
 button.btn2,
-a.btn2 {
+a.btn2,a.btn1 {
         font-size: 18px;
         padding: 10px 28px;
     }
@@ -95,16 +95,16 @@ a.btn2 {
 /* Small tablets / large phones */
 @media (max-width: 768px) {
     .hero-text h2 {
-        font-size: 28px;
+        font-size: 36px;
     }
 
     .hero-text p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     button.btn1,
     button.btn2,
-    a.btn2 {
+    a.btn2,a.btn1 {
         font-size: 16px;
         padding: 8px 24px;
         margin-bottom: 15px; /* add space when stacked */
@@ -129,7 +129,7 @@ a.btn2 {
 
     button.btn1,
     button.btn2,
-    a.btn2 {
+    a.btn2,a.btn2 {
         font-size: 14px;
         padding: 6px 20px;
         margin-bottom: 10px;
