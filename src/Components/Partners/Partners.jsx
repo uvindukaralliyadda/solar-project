@@ -8,6 +8,7 @@ import canadian from '../../assets/candian-min.png'
 import trina from '../../assets/trina-min.png'
 import SMA from '../../assets/SMA-min.png'
 import alumex from '../../assets/Alumex-min.png'
+import jinko from '../../assets/jinko.png'
 
 const Partners = () => {
   return (
@@ -19,9 +20,8 @@ const Partners = () => {
       <main className='group'>
             <div className='card'><img src={longi}/></div>
             <div className='card'><img src={ja}/></div>
-            <div className='card'><img src={fronius}/></div>
+            <div className='card'><img src={jinko}/></div>
             <div className='card'><img src={huawei}/></div>
-            <div className='card'><img src={canadian}/></div>
             <div className='card'><img src={trina}/></div>
             <div className='card'><img src={SMA}/></div>
             <div className='card'><img src={alumex}/></div>

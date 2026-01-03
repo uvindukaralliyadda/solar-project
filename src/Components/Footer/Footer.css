@@ -19,7 +19,6 @@ color: #FFFFFF;
     display: flex;
     align-items: stretch;          /* forces equal height */
     justify-content: space-between;
-    gap: 20px;
     
 }
 
@@ -30,8 +29,9 @@ color: #FFFFFF;
     flex-direction: column;
     justify-content: space-evenly;   /* consistent top alignment */
     padding: 20px;
-    margin-left: 125px;
+    margin-left: 0 auto 0 auto;
     text-align: center;
+    max-width: 250px;
 }
 
 
