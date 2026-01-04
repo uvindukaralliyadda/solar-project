@@ -15,8 +15,9 @@ const Footer = () => {
             <ul>
                 <li><a href='#about'>About</a></li>
                 <li><a href='#Whysolar'>Why Solar</a></li>
-                <li><a>Our Partners</a></li>
+                <li><a href='#partner'>Our Partners</a></li>
                 <li><a href='#leader'>Leadership</a></li>
+                <li><a href='#testimonials'>Testimonials</a></li>
                 <li><a href='#Process'>Our Process</a></li>
                 <li><a href='#contact'>Contact</a></li>
             </ul>

@@ -3,6 +3,7 @@ import './Leadership.css'
 import bachelor from '../../assets/Bachelor.png'
 import master from '../../assets/Masters.png'
 import experience from '../../assets/Experience.png'
+import { motion } from 'framer-motion'
 
 const Leadership = () => {
   return (
@@ -12,13 +13,13 @@ const Leadership = () => {
         <p>The company is guided by leadership with a long-term vision for sustainable energy development in Sri Lanka. Our leadership emphasizes responsible growth, ethical practices, and strong governance as the foundation for building credible solar infrastructure.</p>
       </header>
       <main className='leader-cards'>
-            <article className='leader-article'>
+            <motion.article className='leader-article' initial={{ opacity: 0, y: 50, scale: 0.95 }}whileInView={{ opacity: 1, y: 0, scale: 1 }}viewport={{ once: true, amount: 0.3 }} transition={{type: "spring",stiffness: 120,damping: 18,mass: 0.8}}>
                 <h2>Mr. Jayantha Wickramasinghe</h2>
                 <h3>Chairman</h3>
                 <p>Mr. Jayantha Wickramasinghe is an accomplished business leader with nearly 20 years of experience in trading and manufacturing at Solex group. He also brings over 10 years of expertise in renewable energy through his involvement in project development and execution at Lakwell Solar and Lakwell Energy.
 He additionally provides consultancy services to several leading construction companies and solution providers across Sri Lanka.</p>
-            </article>
-            <article className='leader-article'>
+            </motion.article>
+            <motion.article className='leader-article' initial={{ opacity: 0, y: 50, scale: 0.95 }}whileInView={{ opacity: 1, y: 0, scale: 1 }}viewport={{ once: true, amount: 0.3 }} transition={{type: "spring",stiffness: 120,damping: 18,mass: 0.8}}>
                 <div className='leader-row'>
                     <img src={bachelor}/>
                     <h3>BSc (Hons) Uk, Business Computing - University of Northumbria.</h3>
@@ -31,7 +32,7 @@ He additionally provides consultancy services to several leading construction co
                     <img src={experience}/>
                     <h3>20 years of experience in trading and manufacturing at Solex group</h3>
                 </div>
-            </article>
+            </motion.article>
       </main>
     </div>
   )
